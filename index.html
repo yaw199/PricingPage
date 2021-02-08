@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="price.css">
+</head>
+<body>
+    <div class="price-container">
+    <div class="heading">
+        <h3>Simple, traffic-based pricing</h3>
+        <p>sign-up for our 30-day trial. No credit required</p>
+    </div>
+    <div class="shadow-container">
+        <div class="top-text">
+            <p class="views"></p>
+            <p class="p-money"><span class="dollar">$<span class="amount"></span> </span>/month </p>
+        </div>
+
+        <div class="range">
+        <input type="range" min="0" max="4" value="2" step="1" id="range-btn">
+        
+        </div>
+        <div class="bottom-text">
+         <p class="month">Monthly Billing</p>  
+         <input type="checkbox" class="check-btn"> 
+         <p class="year">Yearly Billing <span class="discount">25% discount</span></p>  
+            
+        </div>
+        <div class="unlimited-container">
+          <div class="left-text">
+            <div class="tick"></div> <p>websites</p>
+            <div class="tick2"></div> <p>100% date ownership</p>
+            <div class="tick3"></div> <p>Email reports</p>
+          </div>
+          <button>start my trial</button>
+        </div>
+    </div>
+    </div>
+    
+    
+    <script src="price.js"></script>
+</body>
+</html>
